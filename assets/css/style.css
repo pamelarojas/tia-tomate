@@ -1,21 +1,40 @@
 /* Global Styles */
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+
 h1{
-	font-family: "raleway-dots"
+	font-family: "raleway"
 }
 
 
 h2, h3 {
-  font-family: 'raleway-dots', sans-serif;
+  font-family: 'open sans', sans-serif;
 }
 
 p, li, a,{
-  font-family: 'raleway-extralight', sans-serif;
+  font-family: 'open sans', sans-serif;
 }
 
 /* Navbar */
-.navbar_tia-tomate{
+a.nav-link {
   background-color: #fafafa;
-  color: #707070
+  color: #707070;
+}
+
+a.nav-link:hover {
+  background-color: #fafafa;
+  color: red;
+}
+
+a.footer-link {
+  background-color: #686963;
+  color: #fafafa;
+  
+}
+
+a.footer-link:hover {
+  background-color: #686963;
+  color: #fafafa;
 }
 
 /* Header */
@@ -25,38 +44,77 @@ p, li, a,{
 	height: 200px;
 	text-align: center;
 	color: white;
-	padding-top: 45px;
+
 }
 
 .header h1{
-	font-size: 60px;
+	font-size: 50px;
 	text-align: center;
-	padding-bottom: 10px; 
+	padding-top: 40px; 
+	
 }
 
-
-.header img{
-	width: 100px:;
-}
 /* history */
-.history_img-history1{
-    width: 10px;
-    padding: 10px;
-}
- 
-.history_text1{
+
+ img {
+ 	width: 100%;
+ }
+ .history_text1{
 	background: #707070;
-    color: #ffffff
+    color: #ffffff;
+    padding-top: 30px;
+    padding: 40px;
 }
 
 .history_text2{
 	background: #fafafa;
 	color: #707070;
+	padding-top: 30px;
+    padding: 40px;
 }
 
-.history_img-history2{
+.img-history2{
     width: 10px;
+    padding: 0px;
 }
+
+.img-history1{
+    padding: 0px;
+}
+
+/* nosotros */
+.nosotros{
+	background: #E56353; 
+	width: 100%;
+	height: 150px;
+	text-align: center;
+	color: white;
+}
+
+.nosotros h1{
+	font-size: 50px;
+    text-align: center;
+	padding-top: 40px; 
+
+}
+
+.nosotros2 img{
+	width: 30%;
+	height: 80%;
+	margin-top: 150px;
+	padding-right: 50px;
+	margin: 50px;
+}
+
+.nosotros-text1{
+    margin-top: 50px;
+}
+
+
+.nosotros-text2{
+    margin-top: 50px;
+}
+
 
 /* blog*/
 .blog{
@@ -65,43 +123,56 @@ p, li, a,{
 	height: 200px;
 	text-align: center;
 	color: white;
-	padding-top: 45px;
+	padding-top: 10px;
+	
+}
+
+.blog h1{
+	font-size: 40px;
+    text-align: center;
+	padding-top: 40px; 
+    margin-bottom: 30px;
 }
 
 .blog a{
-	bottom: 
-    border-radius: 30px;
-    padding: 2rem 6rem;
-    color: #fafafa;
-    text-transform: uppercase;
-    text-decoration: none;
+  background-color: #fafafa;
+  border-radius: 40px;
+  color: #686963;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 15px;
+ 
+  
 }
-
-/* nosotros */
-.nosotros{
-	background: #E56353; 
-	width: 100%;
-	height: 200px;
-	text-align: center;
-	color: white;
-	padding-top: 45px;
-}
-
-.nosotros h1{
-	font-size: 90px;
-}
-
 
 
 /* Footer */
-.tia-tomate-img{
+.footer{
 	background: #686963;
-	float: left;
-    width: 100%;
-    height: 250px;
+    height: 200px;
+    padding-top: 30px;
 }
 
-.tia-tomate-footer{
+.img-footer img{
+	width: 250px;
+	height: 100px;
+	
+}
+
+.iconos i{
+	width: 50px;
+	height: 30px;
+	font-size: 50px;
+	padding-right: 50px;
+
+	
+
+}
+
+.nav-footer ul {
 	float: right;
+	padding-right:  10px;
+	display: block;
 
 }
