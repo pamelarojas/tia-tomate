@@ -11,10 +11,25 @@ h2, h3 {
   font-family: 'open sans', sans-serif;
 }
 
-p, li, a,{
+p, li, a{
   font-family: 'open sans', sans-serif;
 }
 
+@media only screen and (max-width : 767px) {
+
+h1 {
+   font-size: 2em;
+  }
+
+h2,h3{
+   font-size: 1.625em;
+  }
+
+p, li, a{
+    font-size: 1.375em;
+  }
+
+}
 /* Navbar */
 a.nav-link {
   background-color: #fafafa;
@@ -54,6 +69,23 @@ a.footer-link:hover {
 	
 }
 
+@media only screen and (max-width : 767px) {
+
+.header{
+    height: 200px;
+    padding-top: 25px;
+    background-position: center;
+  }
+
+.header h1 {
+    font-size: 2em;
+  }
+
+.header p {
+    padding: 1em;
+  }
+
+}
 /* history */
 
  img {
@@ -175,4 +207,8 @@ a.footer-link:hover {
 	padding-right:  10px;
 	display: block;
 
+}
+
+.footer small {
+  font-size: 0.1em;
 }
